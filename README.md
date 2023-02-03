@@ -1,2 +1,20 @@
-# EDA
-Credit Exploratory Data Analysis for a NBFC
+# Credit EDA
+### Credit Exploratory Data Analysis for a NBFC
+
+## Problem Statement :
+The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it to their advantage by becoming a defaulter. Suppose you work for a consumer finance company which specialises in lending various types of loans to urban customers. You have to use EDA to analyse the patterns present in the data. This will ensure that the applicants capable of repaying the loan are not rejected.
+
+## Business Goal :
+This case study aims to identify patterns which indicate if a client has difficulty paying their instalments which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc. This will ensure that the consumers capable of repaying the loan are not rejected. Identification of such applicants using EDA is the aim of this case study.
+
+## We have used the below approach for deriving the insights :  
+1. The required libraries for data cleaning and visualisation were imported.  
+2. We methodologically did data cleaning for rows & columns.  
+3. Wherever necessary median & mode values were used for replacement.  
+4. Columns with majority of data missing were dropped.  
+5. Columns providing no relevant data pertaining to problem statement were carefully selected & dropped.  
+6. Outliers were methodologically identified and handled wherever possible.  
+7. Data imbalance was checked.  
+8. Created new columns as per the requirements.  
+9. Univariate/Bivariate Analysis of the relevant Categorical/numerical were done wrt . to Target variable and insights are inferred.  
+10. Current and Previous application data are merged to derive meaningful insights based on bank Approval loan status.  
